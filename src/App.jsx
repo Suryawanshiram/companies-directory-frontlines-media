@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import "./App.css";
 import CompaniesList from "./components/CompaniesList";
-import Copyright from "./components/CopyRight";
+import Copyright from "./components/Copyright";
 import { fetchCompanies } from "./features/companies.slice";
 import { useEffect } from "react";
 
